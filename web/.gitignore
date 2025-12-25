@@ -1,0 +1,21 @@
+# Ignore email configuration with passwords
+email-config.json
+
+# Note: Assessment reports (.md and .pdf) are tracked in git
+# Both formats contain important security findings
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore test files
+test-*.md
+*-test.md
+
+# Ignore temporary files
+.tmp*
+*.tmp
+*~
+.DS_Store

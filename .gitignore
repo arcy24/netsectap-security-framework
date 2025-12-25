@@ -1,0 +1,142 @@
+# NetSecTap Security Framework - Git Ignore File
+
+# ============================================================================
+# Email Configuration (contains sensitive credentials)
+# ============================================================================
+web/email-config.json
+**/email-config.json
+
+# ============================================================================
+# Assessment Reports (may contain sensitive findings)
+# ============================================================================
+# Uncomment these if you don't want to track assessment reports in git
+# web/*.pdf
+# web/*.md
+# !web/Web-Assessment.md
+# !web/README.md
+# !web/*example*.md
+
+# Network scan results (may contain sensitive data)
+network/scans/**/*.nmap
+network/scans/**/*.xml
+network/scans/**/*.gnmap
+!network/scans/**/.gitkeep
+!network/scans/**/example*.nmap
+
+# Generated reports with sensitive data
+network/reports/*_report_*.md
+network/reports/*.html
+!network/reports/example_report.md
+
+# ============================================================================
+# Temporary Files
+# ============================================================================
+*.tmp
+.tmp*
+*~
+.DS_Store
+Thumbs.db
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# ============================================================================
+# Logs and Databases
+# ============================================================================
+*.log
+*.sql
+*.sqlite
+*.db
+
+# ============================================================================
+# IDE and Editor Files
+# ============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================================
+# OS Files
+# ============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============================================================================
+# CVE Cache (optional - contains downloaded CVE data)
+# ============================================================================
+network/cache/cve/*.json
+!network/cache/cve/.gitkeep
+
+# ============================================================================
+# Configuration with Secrets
+# ============================================================================
+**/config/*secret*
+**/config/*password*
+**/config/*key*
+**/credentials*
+**/.env
+**/.env.*
+
+# ============================================================================
+# Test Files
+# ============================================================================
+test-*.md
+*-test.md
+test-results/
+coverage/
+
+# ============================================================================
+# Backup Files
+# ============================================================================
+*.bak
+*.backup
+*.old
+*_backup
+
+# ============================================================================
+# Archive Files
+# ============================================================================
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# ============================================================================
+# Custom Exclusions
+# ============================================================================
+# Add your custom exclusions below
+local/
+private/
+.local/
