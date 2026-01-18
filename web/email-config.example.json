@@ -1,0 +1,31 @@
+{
+  "auth_method": "oauth2",
+  "client_id": "your-azure-client-id-here",
+  "client_secret": "your-azure-client-secret-value-here",
+  "tenant_id": "your-azure-tenant-id-here",
+  "sender_email": "your-email@yourdomain.com",
+  "sender_name": "Your Name or Team Name",
+  "company_name": "Your Company Name",
+  "contact_info": "your-email@yourdomain.com | www.yourcompany.com",
+  "default_recipient": "client@example.com",
+
+  "email_template": {
+    "subject": "Security Assessment Report - {domain}",
+    "greeting": "Dear Valued Client,",
+    "intro": "Please find attached the comprehensive security assessment report for your domain.",
+    "action_items": "We recommend reviewing the high-priority items in the Executive Summary and Implementation Plan sections. Our team is available to assist with implementing any of the suggested security improvements.",
+    "closing": "If you have any questions about this assessment or need assistance with implementation, please do not hesitate to contact us.\n\nThank you for choosing us for your security assessment needs."
+  },
+
+  "_comments": {
+    "auth_method": "Must be 'oauth2' - Uses Microsoft Graph API with OAuth2 authentication",
+    "client_id": "Application (client) ID from Azure App Registration",
+    "client_secret": "Client secret VALUE (not ID) from Azure App Registration - Certificates & secrets",
+    "tenant_id": "Directory (tenant) ID from Azure App Registration",
+    "sender_email": "Your Office 365/Microsoft 365 email address",
+    "sender_name": "Name that will appear as the sender in emails",
+    "default_recipient": "Default email address if none provided on command line",
+    "setup_instructions": "See README.md for complete Azure App Registration setup guide",
+    "required_permissions": "Mail.Send (Application permission) with admin consent granted"
+  }
+}

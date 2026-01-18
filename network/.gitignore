@@ -1,0 +1,48 @@
+# Network Hygiene - Git Ignore Rules
+
+# Exclude actual scan results (may contain sensitive network data)
+scans/nmap/*.nmap
+scans/nmap/*.xml
+scans/nmap/*.gnmap
+scans/masscan/*
+scans/custom/*
+
+# Exclude generated reports with potentially sensitive data
+reports/*_report_*.md
+reports/*.html
+reports/*.txt
+
+# Exclude CVE cache (may reveal internal software versions)
+cache/cve/*.json
+
+# Keep directory structure
+!scans/nmap/.gitkeep
+!scans/masscan/.gitkeep
+!scans/custom/.gitkeep
+!reports/.gitkeep
+!templates/.gitkeep
+!docs/.gitkeep
+!cache/cve/.gitkeep
+
+# Allow example/template files
+!scans/nmap/example_*.nmap
+!reports/example_report.md
+!templates/*.template
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

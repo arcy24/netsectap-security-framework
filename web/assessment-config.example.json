@@ -1,0 +1,34 @@
+{
+  "assessment_preferences": {
+    "auto_send_report": false,
+    "report_delivery_method": "email",
+    "default_recipient": "security@example.com",
+    "prompt_for_confirmation": false,
+    "auto_fix_suggestions": false,
+    "assessment_tier": "tier1",
+    "_note": "Use --send-report flag to send via email"
+  },
+  "report_settings": {
+    "auto_generate_pdf": true,
+    "cli_report_format": "summary",
+    "include_screenshots": false,
+    "vendor_neutral": true
+  },
+  "notification_settings": {
+    "send_completion_notification": true,
+    "include_executive_summary": true
+  },
+  "scope": {
+    "domains_to_assess": [
+      "www.example.com",
+      "app.example.com",
+      "api.example.com"
+    ],
+    "exclude_domains": []
+  },
+  "thresholds": {
+    "minimum_acceptable_score": 80,
+    "alert_on_critical_findings": true,
+    "auto_create_remediation_plan": true
+  }
+}

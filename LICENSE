@@ -1,0 +1,56 @@
+MIT License
+
+Copyright (c) 2026 NetSecTap Labs
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+IMPORTANT LEGAL NOTICE:
+
+This software is provided for authorized security testing purposes only.
+
+You MUST obtain explicit written permission before:
+- Scanning or testing networks you do not own
+- Performing security assessments on third-party systems
+- Conducting any form of penetration testing
+
+Unauthorized use of this software may violate:
+- Computer Fraud and Abuse Act (CFAA) - United States
+- Computer Misuse Act - United Kingdom
+- Similar laws in other jurisdictions
+
+The authors and contributors of this software:
+- Do NOT authorize or condone illegal use
+- Are NOT responsible for misuse or illegal activities
+- Strongly advocate for responsible disclosure
+- Support ethical hacking practices only
+
+BY USING THIS SOFTWARE, YOU AGREE TO:
+1. Comply with all applicable laws and regulations
+2. Obtain proper authorization before any security testing
+3. Use the software ethically and responsibly
+4. Follow responsible disclosure practices
+5. Accept full legal responsibility for your actions
+
+If you discover vulnerabilities:
+- Notify the affected party immediately
+- Allow reasonable time for remediation
+- Do not publicly disclose until patched
+- Follow coordinated vulnerability disclosure guidelines

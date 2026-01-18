@@ -1,0 +1,42 @@
+# Output directories
+*/output/
+*/reports/
+
+# Sensitive configuration files
+web/email-config.json
+web/assessment-config.json
+
+# Scan results and captures
+*.cap
+*.pcap
+*.pcapng
+*.csv
+*.kismet
+*.nmap
+
+# Temporary files
+*.tmp
+*.log
+/tmp/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
