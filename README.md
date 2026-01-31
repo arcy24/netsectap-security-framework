@@ -10,10 +10,6 @@ This unified framework combines three powerful security assessment toolkits:
 - **Network Assessment**: Network infrastructure scanning (port scanning, CVE lookup, hygiene checks)
 - **WiFi Assessment**: Wireless network security analysis (encryption, monitor mode, packet capture)
 
-## 🎬 Quick Demo
-
-![NetSecTap Framework Demo](netsectap-framework-demo.gif)
-
 ## Quick Start
 
 ### Interactive Mode
